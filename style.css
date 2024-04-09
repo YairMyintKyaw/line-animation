@@ -114,15 +114,6 @@ body{
     width: 100%;
 }
 
-.section path{
-    stroke-dasharray: 1500;
-    stroke-dashoffset: 1500;
-}
-
-.section.is-act path{
-    animation: lineAnimation 1.5s ease-in-out forwards;
-}
-
 .section.is-act .section__img{
     transform: translateY(0);
     opacity: 1;
